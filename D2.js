@@ -23,7 +23,7 @@ console.log("-----Esercizio 2-----");
 
 a = 8;
 
-if (a != 5) {
+if (a !== 5) {
   console.log("not equal");
 } else {
   console.log("equal");
@@ -91,7 +91,7 @@ if (totalShoppingCart > 50) {
 
 console.log("-----Esercizio 6-----");
 
-totalShoppingCart = 100;
+totalShoppingCart = 145;
 let risparmio = (20 / 100) * totalShoppingCart;
 totalShoppingCart -= risparmio;
 console.log(totalShoppingCart);
@@ -184,10 +184,10 @@ console.log("-----Esercizio 10-----");
 
 let val = 7;
 
-if (val < 10) {
-  console.log("Meno di 10");
-} else if (val < 5) {
+if (val < 5) {
   console.log("Meno di 5");
+} else if (val < 10) {
+  console.log("Meno di 10");
 } else if(val===10 || val>10){
   console.log("Uguale a 10 o maggiore");
 }
