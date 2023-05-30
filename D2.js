@@ -207,9 +207,10 @@ console.log("-----Esercizio 11-----");
 const me = {
   name: "John",
   lastName: "Doe",
-  city: "Toronto",
   skills: ["javascript", "html", "css"],
 };
+
+me.city = "Toronto"
 console.log(me)
 
 
